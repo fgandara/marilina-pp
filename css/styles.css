@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* desktop styles */
+
+.nav {
+    background-image: url("../img/nav_bar.png");
+    background-repeat: repeat-x;
+    background-size: 70rem;
+    background-color: #ffffff;
+    height: 10vh;
+    margin: 0rem;
+    padding: 5rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__logo {
+
+}
+
+.logo {
+    width: 18rem;
+}
+
+.navs__column {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.nav__top {
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 30%; */
+
+}
+
+.nav__top-list__age {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav__top-list-item__age {
+
+}
+
+#tres-cinco {
+    height: 2rem;
+}
+
+#fam-doc {
+    height: 2rem;
+}
+
+.nav__img__sponsors {
+    width: 25rem;
+}
+
+.nav__bottom-list__sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.nav__bottom-list-item__sections {
+
+}
+
+#la-serie {
+    width: 12rem;
+    /* background-color: blue; */
+}
+
+#interactivo {
+    width: 12rem;
+    /* background-color: blueviolet; */
+}
+
+#personajes {
+    width: 12rem;
+    /* background-color: red; */
+}
+
+#escribinos {
+    width: 12rem;
+    /* background-color: green; */
+}
+
+.la-serie__header {
+    background-image: url("../img/la-serie_banner_background.png");
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.la-serie__header__text-zone {
+    position: relative;
+}
+
+.la-serie__header__text-zone__img {
+    width: 100%;
+}
+
+.la-serie__header__text {
+    position: absolute;
+    width: 75%;
+    left: 3rem; 
+    top: 2rem;
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.la-seria__header__characters {
+    width: 90%;
+}
+
+.la-serie__background {
+    background-image: url("../img/la-serie_background.png");
+    background-repeat: repeat;
+}
+
+.la-serie__chapters {
+    padding: 2rem 0;
+}
+
+.la-serie__chapters__row {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.la-serie__chapters__video {
+    width: 30%;
+}
+
+footer {
+    background-image: url(../img/la-serie_footer_detail.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+
+.la-serie_footer_logos {
+    height: 50%;
+}
