@@ -140,34 +140,38 @@ table {
     /* background-color: green; */
 }
 
-.la-serie__header {
-    background-image: url("../img/la-serie_banner_background.png");
-    background-repeat: repeat-x;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.la-serie__header__container {
+    position: relative;
+    width: 100%;
 }
 
-.la-serie__header__text-zone {
-    position: relative;
+.la-serie__header__background {
+    width: 100%;
 }
 
 .la-serie__header__text-zone__img {
-    width: 100%;
+    position: absolute;
+    left: 0rem; 
+    top: 0rem;
+    height: 100%;
 }
 
 .la-serie__header__text {
     position: absolute;
-    width: 75%;
+    width: 25%;
     left: 3rem; 
-    top: 2rem;
+    top: 3rem;
     font-family: 'Nerko One', cursive;
-    font-size: 2rem;
     color: #ffffff;
+    font-size: 1.5rem;
+    padding: 1rem 0;
 }
 
-.la-seria__header__characters {
-    width: 90%;
+.la-serie__header__characters {
+    height: 100%;
+    position: absolute;
+    right: 10%; 
+    top: 0rem;
 }
 
 .la-serie__background {
@@ -203,10 +207,6 @@ footer {
 
 .la-serie_footer_logos {
     height: 50%;
-}
-
-.personajes-juana__header {
-    background-color: blueviolet;
 }
 
 .personajes-juana__header__container {
@@ -282,4 +282,88 @@ footer {
     font-family: 'Nerko One', cursive;
     font-size: 2rem;
     color: #1f1657;
+} 
+
+.famydoc__header__container {
+    position: relative;
+    width: 100%;
+}
+
+.famydoc__header__background {
+    width: 100%;
+}
+
+.famydoc__header__text-zone__img {
+    position: absolute;
+    left: 0rem; 
+    top: 0rem;
+    height: 100%;
+}
+
+.famydoc__header__text {
+    position: absolute;
+    width: 35%;
+    left: 3rem; 
+    top: 3rem;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.famydoc__header__characters {
+    height: 100%;
+    position: absolute;
+    right: 0rem; 
+    top: 0rem;
+}
+
+.famydoc__background {
+    background-image: url("../img/famydoc_background.png");
+    background-repeat: repeat;
+}
+
+.famydoc__presentation {
+    padding-top: 2rem;
+}
+
+.famydoc__paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.famydoc__paragraph a {
+    color: black;
+    text-decoration: none;
+}
+
+.famydoc__strong-text {
+    font-weight: 600;
+}
+
+.famydoc__title {
+    margin: 1rem 0;
+
+}
+
+.famydoc__footer {
+    background-image: url("../img/famydoc_footer_detail.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 30vh;
+    position: relative;
+}
+
+.famydoc__footer__logos {
+    position: absolute;
+    height: 25%;
+    bottom: 30%;
+}
+
+.famydoc__footer__img {
+    position: absolute;
+    right: 3%;
+    bottom: 25%;
+    width: 20%;
 }
