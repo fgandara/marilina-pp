@@ -192,15 +192,84 @@ table {
 }
 
 footer {
-    background-image: url(../img/la-serie_footer_detail.png);
+    background-image: url("../img/la-serie_footer_detail.png");
     background-repeat: repeat-x;
     background-position: bottom;
     height: 10rem;
     display: flex;
     flex-direction: row;
-justify-content: center;
+    justify-content: center;
 }
 
 .la-serie_footer_logos {
     height: 50%;
+}
+
+.personajes-juana__header {
+    background-image: url("../img/personajes-juana_banner_background.png");
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personajes-juana__header__text-zone {
+    position: relative;
+}
+
+.personajes-juana__header__text-zone__img {
+    width: 100%;
+}
+
+.personajes-juana__header__text {
+    position: absolute;
+    width: 75%;
+    left: 3rem; 
+    top: 2rem;
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.personajes-juana__header__characters {
+    width: 90%;
+}
+
+.personajes-juana__header__characters-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.personajes-juana__background {
+    background-image: url("../img/personajes-juana_background.png");
+    background-repeat: repeat;
+}
+
+.personajes-juana__presentation {
+    padding: 2rem 0;
+}
+
+.personajes-juana__images__row {
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personajes-juana__img__40 {
+    padding: 2rem 0.5rem;
+    width: 38%;
+}
+
+.personajes-juana__img__60 {
+    padding: 2rem o.5rem;
+    width: 58%;
+}
+
+.personajes-juana__presentation__text {
+    padding: 2rem 0;
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    color: #1f1657;
 }
